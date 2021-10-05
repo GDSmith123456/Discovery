@@ -8,7 +8,7 @@ public class Member
     private String surname;
     private int userPoints;
 
-    public Member()
+    public Member(String joy, String s)
     {
 
     }

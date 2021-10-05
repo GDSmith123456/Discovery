@@ -6,23 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBootWeb" />
         <module name="AccountSystemDomain" />
         <module name="AccountSystemTranslator" />
         <module name="AccountSystemLogic" />
         <module name="AccountSystemWebSpringBoot" />
         <module name="AccountSystemRepository" />
+        <module name="SpringBootWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Discovery-Points" target="11" />
       <module name="GUI" target="15" />
+      <module name="Spring_DB_Boot" target="11" />
+      <module name="SpringDataJPA" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AccountSystemDomain" options="-parameters" />
+      <module name="AccountSystemLogic" options="-parameters" />
+      <module name="AccountSystemRepository" options="-parameters" />
+      <module name="AccountSystemTranslator" options="-parameters" />
+      <module name="AccountSystemWebSpringBoot" options="-parameters" />
       <module name="Discovery-Points" options="-parameters" />
       <module name="SpringBootWeb" options="-parameters" />
+      <module name="SpringDataJPA" options="-parameters" />
+      <module name="Spring_DB_Boot" options="-parameters" />
     </option>
   </component>
 </project>
