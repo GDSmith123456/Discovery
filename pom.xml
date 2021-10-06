@@ -33,6 +33,32 @@
                 <artifactId>spring-web</artifactId>
                 <version>5.3.9</version>
             </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.annotation</groupId>
+                        <artifactId>jackson.annotation</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -49,6 +75,27 @@
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc7</artifactId>
                 <version>12.1.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>za.ac.nwu.dp</groupId>
+                <artifactId>AccountSystemDomain</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>za.ac.nwu.dp</groupId>
+                <artifactId>AccountSystemLogic</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>za.ac.nwu.dp</groupId>
+                <artifactId>AccountSystemRepository</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-bean-validators</artifactId>
+                <version>${springfox-swagger.version}</version>
             </dependency>
 
 

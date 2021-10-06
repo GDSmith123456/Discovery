@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/AccountSystemWebSpringBoot/Spring_DB_Boot" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringBootWeb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
