@@ -17,6 +17,17 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>za.ac.nwu.systemaccount</groupId>
+            <artifactId>AccountSystemTranslator</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>za.ac.nwu.systemaccount</groupId>
+            <artifactId>AccountSystemDomain</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <properties>
