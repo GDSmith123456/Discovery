@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/AccountSystemSpringBootWeb" />
+    <file type="web" url="file://$PROJECT_DIR$/AccountSystemWebSpringBoot" />
     <file type="web" url="file://$PROJECT_DIR$/AccountSystemWebSpringBoot/Spring_DB_Boot" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootWeb" />
   </component>
@@ -9,7 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBootWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountSystemSpringBootWeb/demo/SpringWebApplication/pom.xml" />
       </list>
     </option>
   </component>

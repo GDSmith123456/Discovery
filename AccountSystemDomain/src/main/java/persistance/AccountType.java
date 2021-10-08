@@ -50,9 +50,4 @@ public class AccountType {
         AccountType that = (AccountType) o;
         return accountTypeId == that.accountTypeId && Objects.equals(accountTypeCurrency, that.accountTypeCurrency) && Objects.equals(accountTypeDateCreation, that.accountTypeDateCreation);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(accountTypeId, accountTypeCurrency, accountTypeDateCreation);
-    }
 }

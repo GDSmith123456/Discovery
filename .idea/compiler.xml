@@ -7,19 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AccountSystemSpringBootWeb" />
         <module name="AccountSystemDomain" />
         <module name="AccountSystemTranslator" />
         <module name="AccountSystemLogic" />
-        <module name="AccountSystemWebSpringBoot" />
         <module name="AccountSystemRepository" />
-        <module name="SpringBootWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AccountSystemWebSpringBoot" target="15" />
       <module name="Discovery-Points" target="11" />
       <module name="GUI" target="15" />
       <module name="Spring_DB_Boot" target="11" />
+      <module name="SpringBootWeb" target="15" />
       <module name="SpringDataJPA" target="11" />
+      <module name="SpringWebApplication" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,11 +29,13 @@
       <module name="AccountSystemDomain" options="-parameters" />
       <module name="AccountSystemLogic" options="-parameters" />
       <module name="AccountSystemRepository" options="-parameters" />
+      <module name="AccountSystemSpringBootWeb" options="" />
       <module name="AccountSystemTranslator" options="-parameters" />
       <module name="AccountSystemWebSpringBoot" options="-parameters" />
       <module name="Discovery-Points" options="-parameters" />
       <module name="SpringBootWeb" options="-parameters" />
       <module name="SpringDataJPA" options="-parameters" />
+      <module name="SpringWebApplication" options="-parameters" />
       <module name="Spring_DB_Boot" options="-parameters" />
     </option>
   </component>

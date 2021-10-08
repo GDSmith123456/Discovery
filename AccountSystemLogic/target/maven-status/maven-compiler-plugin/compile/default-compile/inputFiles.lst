@@ -1,2 +1,6 @@
 C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\za\ac\nwu\as\logic\LogicConfig.java
+C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\Flow\impl\FetchAccountTypeFlow.java
 C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\za\ac\nwu\as\logic\TranslatorConfig.java
+C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\Flow\impl\CreateAccountTypeFlow.java
+C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\Flow\impl\FetchAccountTypeFlowImp.java
+C:\Do\nwu\Discovery_Points\AccountSystemLogic\src\main\java\Flow\impl\CreateAccountTypeFlowImp.java
