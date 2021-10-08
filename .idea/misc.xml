@@ -12,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AccountSystemSpringBootWeb/demo/SpringWebApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/AccountSystemSpringBootWebApp/pom.xml" />
       </list>
     </option>
   </component>

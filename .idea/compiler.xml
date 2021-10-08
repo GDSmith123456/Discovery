@@ -11,6 +11,7 @@
         <module name="AccountSystemDomain" />
         <module name="AccountSystemTranslator" />
         <module name="AccountSystemLogic" />
+        <module name="AccountSystemSpringBootWebApp" />
         <module name="AccountSystemRepository" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="Discovery-Points" target="11" />
       <module name="GUI" target="15" />
       <module name="Spring_DB_Boot" target="11" />
+      <module name="SpringBootApplication" target="11" />
       <module name="SpringBootWeb" target="15" />
       <module name="SpringDataJPA" target="11" />
       <module name="SpringWebApplication" target="11" />
@@ -30,9 +32,11 @@
       <module name="AccountSystemLogic" options="-parameters" />
       <module name="AccountSystemRepository" options="-parameters" />
       <module name="AccountSystemSpringBootWeb" options="" />
+      <module name="AccountSystemSpringBootWebApp" options="-parameters" />
       <module name="AccountSystemTranslator" options="-parameters" />
       <module name="AccountSystemWebSpringBoot" options="-parameters" />
       <module name="Discovery-Points" options="-parameters" />
+      <module name="SpringBootApplication" options="-parameters" />
       <module name="SpringBootWeb" options="-parameters" />
       <module name="SpringDataJPA" options="-parameters" />
       <module name="SpringWebApplication" options="-parameters" />
