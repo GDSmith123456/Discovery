@@ -1,0 +1,5 @@
+flow\AccountTypeTranslatorImpl.class
+za\ac\nwu\dp\translator\config\TranslatorConfig.class
+flow\AccountTypeTranslator.class
+za\ac\nwu\dp\repo\AccountTypeTranslator.class
+za\ac\nwu\dp\translator\config\RepositoryConfig.class

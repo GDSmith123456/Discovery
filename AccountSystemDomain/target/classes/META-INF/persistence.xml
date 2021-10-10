@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
+    <persistence-unit name="default">
+        <class>persistance.AccountType</class>
+        <class>persistance.Prizes</class>
+        <class>persistance.AccountTransaction</class>
+        <class>persistance.AccountType</class>
+
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:AccountSystemRepository/Hibernate"/>
+            <property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver"/>
+            <property name="hibernate.connection.username" value="GDS"/>
+            <property name="hibernate.connection.password" value="cmpg311"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
