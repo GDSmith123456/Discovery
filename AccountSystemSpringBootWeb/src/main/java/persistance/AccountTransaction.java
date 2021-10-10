@@ -52,5 +52,13 @@ public class AccountTransaction {
         this.id = id;
     }
 
-
+    @Override
+    public String toString() {
+        return "AccountTransaction{" +
+                "id=" + id +
+                ", accountMemberId=" + accountMemberId +
+                ", accountAmount=" + accountAmount +
+                ", accountDate=" + accountDate +
+                '}';
+    }
 }

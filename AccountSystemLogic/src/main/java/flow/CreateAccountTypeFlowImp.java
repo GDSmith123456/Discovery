@@ -1,10 +1,9 @@
-package Flow.impl;
+package flow;
 
-/*
 import dto.AccountTypeDto;
 import org.springframework.stereotype.Component;
-
 import javax.transaction.Transactional;
+import flow.CreateAccountTypeFlow;
 import java.time.LocalDate;
 
 @Transactional
@@ -26,4 +25,3 @@ public class CreateAccountTypeFlowImp implements CreateAccountTypeFlow{
         return accountTypeTranslator.create(accountType);
     }
 }
-*/

@@ -10,11 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>AccountSystemTranslator</artifactId>
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
-            <groupId>za.ac.nwu.systemaccount</groupId>
+            <groupId>za.ac.nwu.dp</groupId>
             <artifactId>AccountSystemDomain</artifactId>
-            <version>1.0</version>
+            <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -29,6 +32,12 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-commons</artifactId>
             <version>2.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>za.ac.nwu.dp</groupId>
+            <artifactId>AccountSystemRepository</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

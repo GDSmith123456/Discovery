@@ -1,4 +1,4 @@
-package za.ac.nwu.dp.boot.accountsystemspringbootwebapp;
+package exception;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class AccountSystemSpringBootWebAppApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AccountSystemSpringBootWebAppApplication.class, args);
+
     }
 
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JpaBuddyIdeaProjectConfig">
     <option name="defaultUnitInitialized" value="true" />
-    <option name="reverseEngineeringLastDbConnectionId" value="f64b11cc-4e2e-40d4-a70e-c134df636e47" />
-    <option name="reLastEntityCreationPackage" value="SpringBootWeb/src/main/java/za/ac/nwu/dp/springbootweb" />
+    <option name="reverseEngineeringLastDbConnectionId" value="5fef2c4c-357e-4880-9b61-86285e2d70fa" />
+    <option name="reLastEntityCreationPackage" value="AccountSystemDomain/src/main/java/persistance" />
   </component>
 </project>

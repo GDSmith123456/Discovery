@@ -33,9 +33,6 @@ public class AccountType {
     @Column(name = "ACCOUNT_DATE")
     private LocalDate accountDate;
 
-    public AccountType(String mnemonic, String accountTypeName, LocalDate creationDate) {
-    }
-
     public LocalDate getAccountDate() {
         return accountDate;
     }
@@ -65,17 +62,14 @@ public class AccountType {
     }
 
     public void setId1(Long id1) {
-
         this.id1 = id1;
     }
 
     public LocalDate getCreationDate() {
-
         return creationDate;
     }
 
     public void setCreationDate(LocalDate creationDate) {
-
         this.creationDate = creationDate;
     }
 
@@ -84,7 +78,6 @@ public class AccountType {
     }
 
     public void setAccountTypeName(String accountTypeName) {
-
         this.accountTypeName = accountTypeName;
     }
 
