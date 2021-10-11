@@ -3,7 +3,7 @@ package flow;
 import dto.AccountTypeDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import persistance.AccountType;
+import persistanceTestWeb.AccountType;
 import persistence.AccountTypeRepository;
 
 import java.util.ArrayList;

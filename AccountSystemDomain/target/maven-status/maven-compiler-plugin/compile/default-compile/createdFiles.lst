@@ -1,5 +1,8 @@
-persistance\AccountType.class
+services\AddMiles.class
 Main.class
-persistance\AccountTransaction.class
+services\SubtractMiles.class
+services\ViewMiles.class
+persistanceTestWeb\AccountTransaction.class
 dto\AccountTypeDto.class
 services\GeneralResponse.class
+persistanceTestWeb\AccountType.class

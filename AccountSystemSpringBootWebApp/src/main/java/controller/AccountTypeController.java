@@ -8,6 +8,8 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -19,6 +21,7 @@ import services.GeneralResponse;
 @RequestMapping("account-type")
 public class AccountTypeController
 {
+    private static final Logger LOGGER = LoggerFactory.getLogger(AccountTypeController.class);
     private FetchAccountTypeFlow fetchAccountTypeFlow;
     private final CreateAccountTypeFlow createAccountTypeFlow;
 
@@ -26,11 +29,13 @@ public class AccountTypeController
     public AccountTypeController (FetchAccountTypeFlow fetchAccountTypeFlow, @Qualifier("createAccountTypeFlowName")CreateAccountTypeFlow createAccountTypeFlow){
         this.fetchAccountTypeFlow = fetchAccountTypeFlow;
         this.createAccountTypeFlow = createAccountTypeFlow;
+        LOGGER.info("THE create AccountTypeFlow is: {}", createAccountTypeFlow);
     }
 
     @Autowired
     public AccountTypeController (CreateAccountTypeFlow createAccountTypeFlow){
         this.createAccountTypeFlow = createAccountTypeFlow;
+
     }
 
     @GetMapping("/ping")

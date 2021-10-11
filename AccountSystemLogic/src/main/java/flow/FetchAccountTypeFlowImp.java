@@ -3,6 +3,7 @@ package flow;
 import dto.AccountTypeDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import persistence.AccountTypeRepository;
 
 
 import javax.transaction.Transactional;
@@ -22,5 +23,9 @@ public class FetchAccountTypeFlowImp implements FetchAccountTypeFlow{
     @Override
     public List<AccountTypeDto> getAllAccountTypes() {
         return accountTypeTranslator.getAllAccountTypes();
+    }
+
+    public boolean methodToTest(){
+        return true;
     }
 }

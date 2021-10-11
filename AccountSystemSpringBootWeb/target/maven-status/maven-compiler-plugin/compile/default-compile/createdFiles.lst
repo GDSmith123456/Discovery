@@ -1,6 +1,5 @@
-persistance\AccountType.class
 config\WebConfig.class
 exception\RestServiceApplication.class
-persistance\AccountTransaction.class
+persistanceTestWeb\AccountTransaction.class
 config\SwaggerConfiguration.class
 exception\SpringBootApp.class

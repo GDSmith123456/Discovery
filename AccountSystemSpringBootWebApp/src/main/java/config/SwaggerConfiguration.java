@@ -1,5 +1,8 @@
 package config;
 
+import io.swagger.models.Swagger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,6 +22,10 @@ import java.util.Collections;
 @EnableSwagger2
 @Import(springfox.bean.validators.configuration.BeanValidatorPluginsConfiguration.class)
 public class SwaggerConfiguration {
+
+    public static final Logger LOGGER = LoggerFactory.getLogger(SwaggerConfiguration.class);
+    public static final Logger LOGGER1 = LoggerFactory.getLogger(Swagger.class);
+
     @Value("${swagger.application.version}")
     private String applicationVersion;
     @Value("${swagger.application.name}")

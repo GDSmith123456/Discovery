@@ -2,9 +2,7 @@ package dto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiModel;
-import net.bytebuddy.asm.Advice;
-import persistance.AccountType;
-import persistance.AccountTransaction;
+import persistanceTestWeb.AccountType;
 
 import java.io.Serializable;
 import java.time.LocalDate;

@@ -36,9 +36,14 @@
                 <artifactId>AccountSystemDomain</artifactId>
             </dependency>
             <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>2.5.5</version>
+            </dependency>
+            <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
-                <version>${springfox-swagger.version}</version>
+                <version>3.0.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>com.fasterxml.jackson.annotation</groupId>
@@ -99,8 +104,8 @@
             </dependency>
             <dependency>
                 <groupId>com.oracle.database.jdbc</groupId>
-                <artifactId>ojdbc10</artifactId>
-                <version>19.12.0.0</version>
+                <artifactId>ojdbc8</artifactId>
+                <version>21.1.0.0</version>
             </dependency>
 
 
@@ -134,7 +139,29 @@
                 <artifactId>hibernate-core</artifactId>
                 <version>5.4.3.Final</version>
             </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-bean-validators</artifactId>
+                <version>${springfox-swagger.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>1.4.200</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 
 

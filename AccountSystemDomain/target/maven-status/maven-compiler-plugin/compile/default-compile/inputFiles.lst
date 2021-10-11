@@ -1,5 +1,8 @@
-C:\Do\nwu\Discovery_Points\AccountSystemDomain\src\main\java\Main.java
-C:\Do\nwu\Discovery_Points\AccountSystemDomain\src\main\java\dto\AccountTypeDto.java
-C:\Do\nwu\Discovery_Points\AccountSystemDomain\src\main\java\persistance\AccountTransaction.java
-C:\Do\nwu\Discovery_Points\AccountSystemDomain\src\main\java\persistance\AccountType.java
-C:\Do\nwu\Discovery_Points\AccountSystemDomain\src\main\java\services\GeneralResponse.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\services\GeneralResponse.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\dto\AccountTypeDto.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\services\SubtractMiles.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\persistanceTestWeb\AccountType.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\services\AddMiles.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\Main.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\services\ViewMiles.java
+C:\Do\nwu\Discovery\AccountSystemDomain\src\main\java\persistanceTestWeb\AccountTransaction.java

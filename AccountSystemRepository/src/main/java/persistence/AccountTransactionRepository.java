@@ -2,8 +2,7 @@ package persistence;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import persistance.AccountTransaction;
-import persistance.AccountType;
+import persistanceTestWeb.AccountTransaction;
 
 @Repository
 public interface AccountTransactionRepository extends JpaRepository<AccountTransaction, Long> {
